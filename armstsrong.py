@@ -1,7 +1,8 @@
-a = 12344
+a = 153
 nums = a
 length = len(str(a))
 result = 0
+print(type(length))
 
 while nums > 0:
     digit = nums % 10
