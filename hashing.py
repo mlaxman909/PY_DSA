@@ -11,16 +11,49 @@
 #         print(hashmap[num])
 
 
+#
+# s="Aalsdkkamdadsddaz"
+# q=["a","s","k","d","m","z"]
+# hash_list=[0]*127
+# ascii_list = [chr(i) for i in range(65, 127)]
+#
+# hashmap ={chr(i) for i in range(65, 127)}
+#
+# for i in s:
+#     ascii_value= ord(i)
+#     index= ascii_value-65
+#     hash_list[index]+=1
+# for ch in q:
+#     ascii_value=ord(ch)
+#     index=ascii_value-97
+# print(hash_list)
+# print(hashmap)
+#
 
-s="alsdkkamdadsdda"
-q=["q","k","a","d","s"]
-hashmap ={}
 
-for i in s:
-    if i in q:
-        if i in hashmap:
-            hashmap[i]+=1
-        else:
-            hashmap[i]=1
+#character hashing
 
-print(hashmap)
+s = "Aalsdkkamdadsddaz"
+q = ["a", "s", "k", "d", "m", "z"]
+
+hash_list = [0] * 127
+
+ascii_list = [chr(i) for i in range(65, 123)]
+hashmap = {chr(i): 0 for i in range(65, 123)}
+
+# Count character frequencies
+for ch in s:
+    ascii_value = ord(ch)
+    hash_list[ascii_value] += 1
+    hashmap[ch] += 1
+
+# Print frequencies of the requested characters
+for ch in q:
+    print(ch, "=", hash_list[ord(ch)])
+
+print("Hash list:", hash_list)
+print("ASCII list:", ascii_list)
+print("Hash map:", hashmap)
+
+
+

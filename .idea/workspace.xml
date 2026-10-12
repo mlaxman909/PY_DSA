@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9692c66c-51b7-4839-966c-d3c6867c1c0c" name="Changes" comment="factors done">
-      <change afterPath="$PROJECT_DIR$/Frequency_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashing.py" afterDir="false" />
+    <list default="true" id="9692c66c-51b7-4839-966c-d3c6867c1c0c" name="Changes" comment="character hashing done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashing.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,13 +342,22 @@
       <option name="project" value="LOCAL" />
       <updated>1791482647524</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="character hashing done">
+      <option name="closed" value="true" />
+      <created>1791785198197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791785198197</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sell and buy of stocks" />
     <MESSAGE value="VALID PARENTESES IS COMPLETED" />
     <MESSAGE value="factors done" />
-    <option name="LAST_COMMIT_MESSAGE" value="factors done" />
+    <MESSAGE value="character hashing done" />
+    <option name="LAST_COMMIT_MESSAGE" value="character hashing done" />
   </component>
 </project>
