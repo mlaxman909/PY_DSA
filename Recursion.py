@@ -39,6 +39,37 @@
 # func(1,5)
 
 
+# def sun(i,n):
+#     if i>n:
+#         return
+#     #print(i)
+#     sun(i+1,n)
+#     print(i)
+# sun(1,4)
+
+
+#parameterized & functional Recursion
+#
+# def func(sum,i,N):
+#     if i >N:
+#         print(sum)
+#         return
+#     func(sum+i,i+1,N)
+#
+# func(0,1,10)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
