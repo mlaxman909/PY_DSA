@@ -63,10 +63,25 @@
 def func(N):
     if N==0:
         return 1
-    return N + func(N-1)
+    return N * func(N-1)
 
 
-print(func(4))
+print(func(5))
+
+#reverse an arrays using recursions
+num=[5,6,21,134,1,13,11,23]
+
+def reverse(num,left,right):
+    if left>=right:
+        return
+    num[left],num[right]=num[right],num[left]
+    reverse(num,left+1,right-1)
+
+def reverse_array(num):
+       reverse(num,0,len(num)-1)
+       return num
+#reverse(num,2,5)
+print(reverse_array(num))
 
 
 
